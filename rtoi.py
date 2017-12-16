@@ -12,4 +12,5 @@ def rom_to_int(string):
             else: continueyes=False
 
     return returnint
-print(rom_to_int('VVV'))
+rom=input()
+print(rom_to_int(rom))
