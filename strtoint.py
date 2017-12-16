@@ -1,6 +1,9 @@
 try:
-	n=input()
+	f=open('D:/read.txt','r')
+	n=f.read()
 	d=int(n)
-	print(d)
+	f.close()
+	f=open('D:/read.txt','w')
+	f.write(d)
 except:
-	print('cannot convert')
+	print('cannot convert to integer')
